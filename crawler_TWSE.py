@@ -51,3 +51,5 @@ for i in range(len(all_date)):
     all_date.iloc[i,0] = temp[:4]+"/"+temp[4:6]+"/"+temp[6:]
     all_date.iloc[i,5] = round(float("".join(all_date.iloc[i,5].split(",")))/1000)
     all_date.iloc[i,6] = round(float("".join(all_date.iloc[i,6].split(",")))/1000)
+
+print(all_date)
