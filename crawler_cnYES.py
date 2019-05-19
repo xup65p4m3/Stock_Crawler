@@ -37,3 +37,4 @@ for i in range(len(a)):
         result.iloc[int(i/10),6] = float("".join(a[i+8].text.split(",")))
 
 result = result.dropna()
+print(result) 
